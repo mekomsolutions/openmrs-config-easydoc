@@ -1,0 +1,4 @@
+Uuid,Void/Retire,Identifier type,Name,Description,Prefix,Suffix,First identifier base,Min length,Max length,Base character set,_version:1,_order:6000
+4650b587-07ca-4b54-a0d7-7f067845b612,,27898556-067b-4e52-a2c0-572126e3d3de,Identifiant Patient,,ABCD,,00001000,,14,0123456789,,
+b0c3b46d-7ca7-4d8b-8654-9d4daaae2384,,5cf49ae0-4645-4d47-9283-070fabfe4992,CMU,,CMU,,,,16,0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ,,
+d82b28b2-1afd-4902-9d6f-e65c146110b3,,c9da1e84-bddf-4675-927f-125ef31a785b,Carte d’Identité,,CNI,,,,14,0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ,,
