@@ -10,7 +10,7 @@
     </globalProperty>
     <globalProperty>
       <property>bahmni.extraPatientIdentifierTypes</property>
-      <value></value>
+      <value>8bc3d442-8d2b-4a2e-a773-c8e1d490dc98,f1b418bd-f76f-4242-b894-c45e62ac45f0</value>
     </globalProperty>
     <globalProperty>
       <property>concept.reasonForDeath</property>
