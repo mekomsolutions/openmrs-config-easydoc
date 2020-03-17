@@ -1,0 +1,4 @@
+Uuid,Void/Retire,Name,Description,Format,Foreign uuid,Searchable,Edit privilege,_order:1000
+29f58586-e331-4da1-a558-3d4210e48664,,impl.email,Email,java.lang.String,,,,
+91dbc359-39ef-49f4-abbb-43497b6709f2,,impl.mothersName,Nom de la mère,java.lang.String,,,,
+7461e717-0214-4b57-b79d-f786d2723b4e,,impl.mothersFirstName,Prénoms de la mère,java.lang.String,,,,
