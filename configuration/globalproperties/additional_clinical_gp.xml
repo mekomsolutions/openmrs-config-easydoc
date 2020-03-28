@@ -1,8 +1,8 @@
 <config>
   <globalProperties>
     <globalProperty>
-      <property>emrapi.sqlSearch.noVitalsPatients</property>
-      <value>select distinct concat( ifnull(pn.family_name,'') ,' ', pn.given_name ) as name, 
+      <property>emrapi.sqlSearch.awaitingVitals</property>
+      <value>select distinct concat( ifnull(pn.given_name,'') ,' ', pn.family_name ) as name, 
           pi.identifier as identifier, 
           concat("",p.uuid) as uuid, 
           concat("",v.uuid) as activeVisitUuid, 
@@ -21,7 +21,7 @@
           select distinct person_id from obs
           join encounter on encounter.encounter_id = obs.encounter_id
           join visit on encounter.visit_id = visit.visit_id
-          where visit.date_stopped is null and obs.concept_id = (select concept_id from concept where uuid = "415cc6cb-5666-492d-b775-bc668a8be3b9") 
+          where visit.date_stopped is null and obs.concept_id = (SELECT DISTINCT concept_id FROM concept_name WHERE name = 'Haiti_Vital Signs Form') 
         ) order by v.date_started asc
     </value>
     </globalProperty>
